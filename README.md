@@ -1,3 +1,20 @@
+## Liferay Configuration
+
+Navigate to `src/lib/config/index.js` and fill in the 4 variables listed bellow.
+
+```javascript
+export const SERVER = '';           // example: https://liferay72.open.gr
+export const SITE_KEY = '';         // example: guest
+export const SITE_ID = '';          // example: 12345
+export const AUTHORIZATION = '';    // example: 'Basic YWRtaW5pc3RyYXRvcjp0aGVwYXNzd29yZA==';
+```
+
+## Liferay Adaptation
+
+Everything you need to know about adaptation can be found [here](https://github.com/liferay/liferay-js-toolkit/wiki/How-to-adapt-most-popular-frameworks-projects).
+
+## React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
